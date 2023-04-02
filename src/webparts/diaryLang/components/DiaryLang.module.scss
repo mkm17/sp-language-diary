@@ -1,0 +1,78 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.loadingContainer {
+  position: fixed;
+  background-color: #ccc;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: 1002;
+  top: 0;
+  left: 0;
+
+  .loadingSpinner {
+    left: 48%;
+    top: 25%;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.diaryLang {
+  padding: 40px;
+  max-width: 700px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  .incorrectWordsLabel {
+    margin: 10px 0 5px 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .textFunctionButton {
+    margin: 10px 0;
+  }
+  .wordsToAnalyze {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    overflow-y: scroll;
+
+    .wordToAnalyze {
+      margin: 10px 0;
+      padding: 0 10px;
+      justify-content: space-between;
+      display: flex;
+      .halfOfWidth {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .checkboxIcon {
+        margin-top: 4px;
+      }
+      .combobox {
+        width: 100%;
+        margin: 0 10px;
+        div {
+          button {
+            min-width: 38px;
+            div {
+              width: 30px !important;
+            }
+          }
+        }
+      }
+      .toggle {
+        margin-top: 4px;
+      }
+      .numberOfWords {
+        font-size: 18px;
+        width: 40px;
+        text-align: end;
+        font-weight: 600;
+      }
+    }
+  }
+}

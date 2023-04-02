@@ -1,0 +1,111 @@
+{
+  "extends": "@microsoft/sp-tslint-rules/base-tslint.json",
+  "rules": {
+    "no-function-expression": true,
+    "no-unnecessary-semicolons": true,
+    "no-use-before-declare": true,
+    "no-with-statement": true,
+    "use-named-parameter": true,
+    "prefer-const": true,
+    "member-ordering": [
+      false
+    ],
+    "no-constant-condition": [
+      false
+    ],
+    "class-name": false,
+    "forin": false,
+    "label-position": false,
+    "label-undefined": false,
+    "member-access": true,
+    "no-arg": false,
+    "no-console": [
+      true,
+      "log"
+    ],
+    "no-construct": false,
+    "no-duplicate-key": false,
+    "no-duplicate-variable": true,
+    "no-eval": false,
+    "no-internal-module": true,
+    "no-shadowed-variable": true,
+    "no-switch-case-fall-through": true,
+    "no-unused-expression": true,
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "member-variable-declaration",
+      "property-declaration"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "variable-name": false,
+    "whitespace": [
+      false
+    ],
+    "comment-format": [
+      false
+    ],
+    "curly": false,
+    "indent": [
+      false
+    ],
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
+    "max-line-length": [
+      true,
+      180
+    ],
+    "no-any": false,
+    "no-bitwise": false,
+    "no-consecutive-blank-lines": true,
+    "no-debugger": false,
+    "no-empty": true,
+    "no-null-keyword": false,
+    "no-string-literal": false,
+    "no-trailing-whitespace": false,
+    "no-var-keyword": true,
+    "one-line": [
+      true,
+      "check-open-brace"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double",
+      "avoid-escape"
+    ],
+    "radix": false,
+    "triple-equals": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "object-literal-sort-keys": false
+  }
+}

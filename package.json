@@ -1,0 +1,52 @@
+{
+  "name": "diary-lang",
+  "version": "0.0.1",
+  "private": true,
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "gulp bundle --no-revision",
+    "clean": "gulp clean",
+    "test": "./node_modules/.bin/jest --config ./config/jest.config.json",
+    "test:watch": "./node_modules/.bin/jest --config ./config/jest.config.json --watchAll"
+  },
+  "dependencies": {
+    "@microsoft/sp-core-library": "1.11.0-plusbeta",
+    "@microsoft/sp-lodash-subset": "1.11.0-plusbeta",
+    "@microsoft/sp-office-ui-fabric-core": "1.11.0-plusbeta",
+    "@microsoft/sp-property-pane": "1.11.0-plusbeta",
+    "@microsoft/sp-webpart-base": "1.11.0-plusbeta",
+    "@pnp/graph": "^2.7.0",
+    "@pnp/sp": "^2.7.0",
+    "office-ui-fabric-react": "6.214.0",
+    "react": "16.8.5",
+    "react-dom": "16.8.5"
+  },
+  "devDependencies": {
+    "@microsoft/rush-stack-compiler-3.3": "0.3.5",
+    "@microsoft/sp-build-web": "1.11.0-plusbeta",
+    "@microsoft/sp-module-interfaces": "1.11.0-plusbeta",
+    "@microsoft/sp-tslint-rules": "1.11.0-plusbeta",
+    "@microsoft/sp-webpart-workbench": "1.11.0-plusbeta",
+    "@types/chai": "3.4.34",
+    "@types/es6-promise": "0.0.33",
+    "@types/mocha": "2.2.38",
+    "@types/office-js": "^1.0.318",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.3",
+    "@types/webpack-env": "1.13.1",
+    "ajv": "~5.2.2",
+    "gulp": "~3.9.1",
+    "@voitanos/jest-preset-spfx-react16": "1.4.0",
+    "babel-jest": "~26.6.1",
+    "babel-plugin-transform-amd-to-commonjs": "^1.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "chai": "^4.3.7",
+    "jest": "25.5.4",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-flow": "^7.18.6",
+    "@babel/preset-react": "^7.18.6"
+  }
+}

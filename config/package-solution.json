@@ -1,0 +1,21 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "diary-lang-client-side-solution",
+        "id": "d2dc9c37-6c5c-41cb-ab9f-4cd31e0ed293",
+        "version": "1.0.0.644",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "Michał Kornet",
+            "websiteUrl": "https://www.linkedin.com/in/micha%C5%82-kornet-sharepoint-dev",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": ""
+        }
+    },
+    "paths": {
+        "zippedPackage": "solution/diary-lang.sppkg"
+    }
+}

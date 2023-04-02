@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "diary-lang-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/diaryLang/DiaryLangWebPart.js",
+          "manifest": "./src/webparts/diaryLang/DiaryLangWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "path" : "https://appsforoffice.microsoft.com/lib/1/hosted/office.js" ,
+    "globalName": "Office"
+  },
+  "localizedResources": {
+    "DiaryLangWebPartStrings": "lib/webparts/diaryLang/loc/{locale}.js"
+  }
+}

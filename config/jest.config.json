@@ -1,0 +1,32 @@
+{
+    "preset": "@voitanos/jest-preset-spfx-react16",
+    "rootDir": "..",
+    "transform": {
+        "^.+\\.(ts|tsx)$": "ts-jest",
+        "^.+\\.js$": "babel-jest"
+    },
+    "testMatch": [
+        "**/src/**/*.test.+(ts|tsx|js)"
+    ],
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "jsx",
+        "js",
+        "json"
+    ],
+    "setupFiles": [
+        "<rootDir>/config/jest.setup.js"
+    ],
+    "moduleDirectories": [
+        "node_modules"
+    ],
+    "transformIgnorePatterns": [
+        "node_modules/(?!(@pnp|@uifabric|office-ui-fabric-react|@microsoft/sp-core-library|@microsoft/sp-http|@microsoft/sp-diagnostics|@microsoft/decorators|@microsoft/sp-page-context|@microsoft/sp-dynamic-data)/)"
+    ],
+    "moduleNameMapper": {
+        "DiaryLangWebPartStrings": "lib/webparts/diaryLang/loc/{locale}.js",
+        "\\.(css|scss)$": "identity-obj-proxy",
+        "^resx-strings/en-us.json": "<rootDir>/node_modules/@microsoft/sp-core-library/lib/resx-strings/en-us.json"
+    }
+}
