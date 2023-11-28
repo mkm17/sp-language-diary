@@ -3,7 +3,7 @@
     "solution": {
         "name": "diary-lang-client-side-solution",
         "id": "d2dc9c37-6c5c-41cb-ab9f-4cd31e0ed293",
-        "version": "1.0.0.644",
+        "version": "1.0.0.645",
         "includeClientSideAssets": true,
         "skipFeatureDeployment": true,
         "isDomainIsolated": false,
